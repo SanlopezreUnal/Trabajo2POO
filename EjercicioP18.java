@@ -50,7 +50,6 @@ public class EjercicioP8 {
         salario_bruto = calcular_salario_bruto(horas_trabajadas, valor_hora);
         salario_neto = calcular_salario_neto(salario_bruto, porcentaje_retencion);
 
-        System.out.println("\nResultados:");
         System.out.println("Código del empleado: " + codigo_empleado);
         System.out.println("Nombre completo: " + nombre_completo);
         System.out.println("Salario bruto: " + salario_bruto);
