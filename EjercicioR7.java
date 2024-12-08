@@ -1,33 +1,27 @@
 import java.util.Scanner;
-public class EjercicioRR7 {
+public class EjercicioRR_7 {
 
     public static void main(String[] args) {
-        double n1,n2,n3,menor,mayor;
+        double a,b;
         
         Scanner entrada = new Scanner(System.in);
         
+        System.out.println("Ingrese el valor de a: ");
+        a = entrada.nextDouble();
         
-        System.out.println("Escriba el valor de n1");
-        n1 = entrada.nextDouble();
+        System.out.println("Ingrese el valor de b: ");
+        b = entrada.nextDouble();
         
-        System.out.println("Escriba el valor de n2");
-        n2 = entrada.nextDouble();
         
-        System.out.println("Escriba el valor de n3");
-        n3 = entrada.nextDouble();
-        
-        if ((n1>n2) && (n1>n3)) {
-            mayor = n1;
+        if (a>b){
+            System.out.println(a + " es mayor que "+ b);
         }
-        else if (n2>n3) {
-            mayor = n2;
+        else if (a==b){
+            System.out.println(a + " es igual a " + b);
         }
-        else {
-            mayor = n3;
-           
+        else{
+            System.out.println(a + " es menor que "+ b);
         }
-        
-        System.out.println("El mayor entre: "+ n1 + ", "+ n2 + " y "+ n3 + " es "+ mayor);
-        
     }
 }
+
