@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class cuadratica {
+public class EjercicioP23 {
 
 
     public static double hallar_formula(double a, double b, double c) {
